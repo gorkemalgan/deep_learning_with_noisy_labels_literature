@@ -110,6 +110,7 @@ This repo consists of collection of papers and repos on the topic of deep learni
 |2019|Other             |     ||[NLNL: Negative Learning for Noisy Labels]()
 
 List of papers that shed light to label noise phenomenon for deep learning:
+
 |Title                                                                                                      | Year |
 |-----                                                                                                      | ---- |
 |[Class noise vs. attribute noise: A quantitative study]()                                                  | 2004 |
@@ -125,6 +126,7 @@ List of papers that shed light to label noise phenomenon for deep learning:
 |[How Do Neural Networks Overcome Label Noise?]()                                                           | 2018 |
 
 List of works under label noise beside classification
+
 |Title                                                                          |Year|
 |-----                                                                          |----|
 |[Label-Noise Robust Generative Adversarial Networks]()                         |2018|
