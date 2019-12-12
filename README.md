@@ -1,6 +1,6 @@
 # Deep Learning with Label Noise / Noisy Labels
 
-This repo consists of collection of papers and repos on the topic of deep learning by noisy labels. All methods listed below are briefly explained in the paper [Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey]() (Survey link will be added soon!). More information about the topic can also be found on the survey.
+This repo consists of collection of papers and repos on the topic of deep learning by noisy labels. All methods listed below are briefly explained in the paper [Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey](https://arxiv.org/abs/1912.05170). More information about the topic can also be found on the survey.
 
 |Year|Type          |Conf |Repo|Title|
 |----|--------------    |-----|----|-----|
@@ -111,13 +111,13 @@ This repo consists of collection of papers and repos on the topic of deep learni
 
 List of papers that shed light to label noise phenomenon for deep learning:
 
-|Title                                                                                                      | Year |
-|-----                                                                                                      | ---- |
-|[Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey]()                      | 2019 |
-|[How Do Neural Networks Overcome Label Noise?](https://openreview.net/forum?id=ryu4RYJPM)                  | 2018 |
-|[Deep Learning is Robust to Massive Label Noise](https://arxiv.org/abs/1705.10694)                         | 2018 |
-|[A closer look at memorization in deep networks](https://arxiv.org/abs/1706.05394)                         | 2017 |
-|[Deep Nets Don't Learn via Memorization](https://openreview.net/forum?id=rJv6ZgHYg)                        | 2017 |
+|Title                                                                                                                  | Year |
+|-----                                                                                                                  | ---- |
+|[Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey](https://arxiv.org/abs/1912.05170)  | 2019 |
+|[How Do Neural Networks Overcome Label Noise?](https://openreview.net/forum?id=ryu4RYJPM)                              | 2018 |
+|[Deep Learning is Robust to Massive Label Noise](https://arxiv.org/abs/1705.10694)                                     | 2018 |
+|[A closer look at memorization in deep networks](https://arxiv.org/abs/1706.05394)                                     | 2017 |
+|[Deep Nets Don't Learn via Memorization](https://openreview.net/forum?id=rJv6ZgHYg)                                    | 2017 |
 |[On the robustness of convnets to training on noisy labels](https://www.semanticscholar.org/paper/On-the-Robustness-of-ConvNets-to-Training-on-Noisy-Stanford/56c060905d3be9b7ea877e58c36d6856ee1205dd)  | 2017 |
 |[A study of the effect of different types of noise on the precision of supervised learning techniques](https://link.springer.com/article/10.1007/s10462-010-9156-z) | 2017 |
 |[Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)         | 2016 |
