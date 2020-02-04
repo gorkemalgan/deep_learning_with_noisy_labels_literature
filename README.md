@@ -2,8 +2,18 @@
 
 This repo consists of collection of papers and repos on the topic of deep learning by noisy labels. All methods listed below are briefly explained in the paper [Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey](https://arxiv.org/abs/1912.05170). More information about the topic can also be found on the survey.
 
-|Year|Type          |Conf |Repo|Title|
-|----|--------------    |-----|----|-----|
+|Year|Type|Conf|Repo|Title|
+|----|----|----|----|-----|
+|2019|SIW|NIPS||[Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting](https://arxiv.org/abs/1902.07379)|
+|2019|RL |ICML||[On Symmetric Losses for Learning from Corrupted Labels](https://arxiv.org/abs/1901.09314)|
+|2019|O  |ICLR|[Pt](https://github.com/orlitany/SOSELETO)|[SOSELETO: A Unified Approach to Transfer Learning and Training with Noisy Labels](https://arxiv.org/abs/1805.09622)|
+|2019|LNC|ICLR||[An Energy-Based Framework for Arbitrary Label Noise Correction](https://openreview.net/forum?id=Hyxu6oAqYX)|
+|2019|NC |NIPS||[Are Anchor Points Really Indispensable in Label-Noise Learning?](https://arxiv.org/abs/1906.00189)|
+|2019|O  |NIPS|[Pt](https://github.com/snow12345/Combinatorial_Classification)|[Combinatorial Inference against Label Noise](https://papers.nips.cc/paper/8401-combinatorial-inference-against-label-noise)|
+|2019|RL |NIPS||[L_DMI : A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise](https://arxiv.org/abs/1909.03388)|
+|2019|O  |CVPR||[MetaCleaner: Learning to Hallucinate Clean Representations for Noisy-Labeled Visual Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_MetaCleaner_Learning_to_Hallucinate_Clean_Representations_for_Noisy-Labeled_Visual_Recognition_CVPR_2019_paper.html)|
+|2019|LNC|ICCV||[O2U-Net: A Simple Noisy Label Detection Approach for Deep Neural Networks](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_O2U-Net_A_Simple_Noisy_Label_Detection_Approach_for_Deep_Neural_ICCV_2019_paper.pdf)|
+|2019|SC |ICCV|[*](http://www.cbsr.ia.ac.cn/users/xiaobowang/)|[Co-Mining: Deep Face Recognition with Noisy Labels](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Co-Mining_Deep_Face_Recognition_With_Noisy_Labels_ICCV_2019_paper.pdf)|
 |2019|O  |     ||[NLNL: Negative Learning for Noisy Labels](https://arxiv.org/abs/1908.07387)
 |2019|R  |     |[Pt](https://github.com/hendrycks/pre-training)|[Using Pre-Training Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1901.09960)
 |2019|SSL|     ||[Robust Learning Under Label Noise With Iterative Noise-Filtering](https://arxiv.org/abs/1906.00216)
@@ -113,6 +123,7 @@ List of papers that shed light to label noise phenomenon for deep learning:
 
 |Title                                                                                                                  | Year |
 |-----                                                                                                                  | ---- |
+|[Investigating CNNs' Learning Representation Under Label Noise](https://openreview.net/pdf?id=H1xmqiAqFm)              | 2019 |
 |[Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey](https://arxiv.org/abs/1912.05170)  | 2019 |
 |[How Do Neural Networks Overcome Label Noise?](https://openreview.net/forum?id=ryu4RYJPM)                              | 2018 |
 |[Deep Learning is Robust to Massive Label Noise](https://arxiv.org/abs/1705.10694)                                     | 2018 |
