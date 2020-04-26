@@ -4,13 +4,13 @@ This repo consists of collection of papers and repos on the topic of deep learni
 
 |Year|Type|Conf|Repo|Title|
 |----|----|----|----|-----|
-|2019|SIW|NIPS||[Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting](https://arxiv.org/abs/1902.07379)|
+|2019|SIW|NIPS|[Pt](https://github.com/xjtushujun/meta-weight-net)|[Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting](https://arxiv.org/abs/1902.07379)|
 |2019|RL |ICML||[On Symmetric Losses for Learning from Corrupted Labels](https://arxiv.org/abs/1901.09314)|
 |2019|O  |ICLR|[Pt](https://github.com/orlitany/SOSELETO)|[SOSELETO: A Unified Approach to Transfer Learning and Training with Noisy Labels](https://arxiv.org/abs/1805.09622)|
 |2019|LNC|ICLR||[An Energy-Based Framework for Arbitrary Label Noise Correction](https://openreview.net/forum?id=Hyxu6oAqYX)|
-|2019|NC |NIPS||[Are Anchor Points Really Indispensable in Label-Noise Learning?](https://arxiv.org/abs/1906.00189)|
+|2019|NC |NIPS|[Pt](https://github.com/xiaoboxia/T-Revision)|[Are Anchor Points Really Indispensable in Label-Noise Learning?](https://arxiv.org/abs/1906.00189)|
 |2019|O  |NIPS|[Pt](https://github.com/snow12345/Combinatorial_Classification)|[Combinatorial Inference against Label Noise](https://papers.nips.cc/paper/8401-combinatorial-inference-against-label-noise)|
-|2019|RL |NIPS||[L_DMI : A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise](https://arxiv.org/abs/1909.03388)|
+|2019|RL |NIPS|[Pt](https://github.com/Newbeeer/L_DMI)|[L_DMI : A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise](https://arxiv.org/abs/1909.03388)|
 |2019|O  |CVPR||[MetaCleaner: Learning to Hallucinate Clean Representations for Noisy-Labeled Visual Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_MetaCleaner_Learning_to_Hallucinate_Clean_Representations_for_Noisy-Labeled_Visual_Recognition_CVPR_2019_paper.html)|
 |2019|LNC|ICCV||[O2U-Net: A Simple Noisy Label Detection Approach for Deep Neural Networks](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_O2U-Net_A_Simple_Noisy_Label_Detection_Approach_for_Deep_Neural_ICCV_2019_paper.pdf)|
 |2019|SC |ICCV|[*](http://www.cbsr.ia.ac.cn/users/xiaobowang/)|[Co-Mining: Deep Face Recognition with Noisy Labels](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Co-Mining_Deep_Face_Recognition_With_Noisy_Labels_ICCV_2019_paper.pdf)|
@@ -19,8 +19,8 @@ This repo consists of collection of papers and repos on the topic of deep learni
 |2019|SSL|     ||[Robust Learning Under Label Noise With Iterative Noise-Filtering](https://arxiv.org/abs/1906.00216)
 |2019|ML |CVPR |[Pt](https://github.com/LiJunnan1992/MLNT)|[Learning to Learn from Noisy Labeled Data](https://arxiv.org/abs/1812.05214)
 |2019|ML |     ||[Pumpout: A Meta Approach for Robustly Training Deep Neural Networks with Noisy Labels](https://arxiv.org/abs/1809.11008)
-|2019|RL |     ||[Symmetric Cross Entropy for Robust Learning with Noisy Labels](https://arxiv.org/abs/1908.06112)
-|2019|RL |     ||[Improved Mean Absolute Error for Learning Meaningful Patterns from Abnormal Training Data](https://arxiv.org/abs/1903.12141)
+|2019|RL |     |[Keras](https://github.com/YisenWang/symmetric_cross_entropy_for_noisy_labels)|[Symmetric Cross Entropy for Robust Learning with Noisy Labels](https://arxiv.org/abs/1908.06112)
+|2019|RL |     |[Caffe](https://github.com/XinshaoAmosWang/Improving-Mean-Absolute-Error-against-CCE)|[Improved Mean Absolute Error for Learning Meaningful Patterns from Abnormal Training Data](https://arxiv.org/abs/1903.12141)
 |2019|LQA|CVPR ||[Learning From Noisy Labels By Regularized Estimation Of Annotator Confusion](https://arxiv.org/abs/1902.03680)
 |2019|SIW|CVPR |[Caffe](https://github.com/huangyangyu/NoiseFace)|[Noise-Tolerant Paradigm for Training Face Recognition CNNs](https://arxiv.org/abs/1903.10357)
 |2019|SIW|ICML |[Pt](https://github.com/thulas/dac-label-noise)|[Combating Label Noise in Deep Learning Using Abstention](https://arxiv.org/abs/1905.10964)
