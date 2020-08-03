@@ -4,6 +4,22 @@ This repo consists of collection of papers and repos on the topic of deep learni
 
 |Year|Type|Conf|Repo|Title|
 |----|----|----|----|-----|
+|2020|LNC|||[Meta Soft Label Generation for Noisy Labels](https://arxiv.org/abs/2007.05836)|
+|2020|R|||[Limited Gradient Descent: Learning With Noisy Labels](https://arxiv.org/abs/1811.08117)|
+|2020|NC|||[Dual T: Reducing Estimation Error for Transition Matrix in Label-noise Learning](http://arxiv.org/abs/2006.07805)|
+|2020|LNC|||[Temporal Calibrated Regularization for Robust Noisy Label Learning](https://arxiv.org/abs/2007.00240)|
+|2020|NC|||[Parts-dependent Label Noise: Towards Instance-dependent Label Noise](http://arxiv.org/abs/2006.07836)|
+|2020|NC|||[Class2Simi: A New Perspective on Learning with Label Noise](https://arxiv.org/abs/2006.07831)|
+|2020|LNC|||[Learning from Noisy Labels with Noise Modeling Network](https://arxiv.org/abs/2005.00596)|
+|2020|LNC|||[ExpertNet: Adversarial Learning and Recovery Against Noisy Labels](https://arxiv.org/abs/2007.05305)|
+|2020|R||[Pt](https://github.com/shengliu66/ELR)|[Early-Learning Regularization Prevents Memorization of Noisy Labels](https://arxiv.org/pdf/2007.00151.pdf)|
+|2020|LNC|||[ProSelfLC: Progressive Self Label Correction for Training Robust Deep Neural Networks](https://arxiv.org/abs/2005.03788)|
+|2020|SIW|IJCAI||[Label Distribution for Learning with Noisy Labels](https://www.ijcai.org/Proceedings/2020/356)|
+|2020|RL|IJCAI||[Can Cross Entropy Loss Be Robust to Label Noise?](https://www.ijcai.org/Proceedings/2020/305)|
+|2020|RL|ICML||[Normalized Loss Functions for Deep Learning with Noisy Labels](https://proceedings.icml.cc/static/paper_files/icml/2020/1502-Paper.pdf)|
+|2020|SC|CVPR|[Pt](https://github.com/hongxin001/JoCoR)|[Combating Noisy Labels by Agreement: A Joint Training Method with Co-Regularization](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wei_Combating_Noisy_Labels_by_Agreement_A_Joint_Training_Method_with_CVPR_2020_paper.pdf)|
+|2020|SIW|CVPR|[Tf](https://github.com/google-research/google-research/tree/master/ieg)|[Distilling Effective Supervision from Severe Label Noise](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Distilling_Effective_Supervision_From_Severe_Label_Noise_CVPR_2020_paper.pdf)|
+|2020|NC|CVPR| |[Training Noise-Robust Deep Neural Networks via Meta-Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Training_Noise-Robust_Deep_Neural_Networks_via_Meta-Learning_CVPR_2020_paper.pdf)|
 |2019|SIW|NIPS|[Pt](https://github.com/xjtushujun/meta-weight-net)|[Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting](https://arxiv.org/abs/1902.07379)|
 |2019|RL |ICML||[On Symmetric Losses for Learning from Corrupted Labels](https://arxiv.org/abs/1901.09314)|
 |2019|O  |ICLR|[Pt](https://github.com/orlitany/SOSELETO)|[SOSELETO: A Unified Approach to Transfer Learning and Training with Noisy Labels](https://arxiv.org/abs/1805.09622)|
@@ -123,8 +139,8 @@ List of papers that shed light to label noise phenomenon for deep learning:
 
 |Title                                                                                                                  | Year |
 |-----                                                                                                                  | ---- |
-|[Investigating CNNs' Learning Representation Under Label Noise](https://openreview.net/pdf?id=H1xmqiAqFm)              | 2019 |
 |[Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey](https://arxiv.org/abs/1912.05170)  | 2019 |
+|[Investigating CNNs' Learning Representation Under Label Noise](https://openreview.net/pdf?id=H1xmqiAqFm)              | 2019 |
 |[How Do Neural Networks Overcome Label Noise?](https://openreview.net/forum?id=ryu4RYJPM)                              | 2018 |
 |[Deep Learning is Robust to Massive Label Noise](https://arxiv.org/abs/1705.10694)                                     | 2018 |
 |[A closer look at memorization in deep networks](https://arxiv.org/abs/1706.05394)                                     | 2017 |
@@ -150,6 +166,31 @@ List of works under label noise beside classification
 Sources on web
 * [Noisy-Labels-Problem-Collection](https://github.com/GuokaiLiu/Noisy-Labels-Problem-Collection)
 * [Learning-with-Label-Noise](https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise)
+
+Clothing1M is a real-world noisy labeled dataset which is widely used for benchmarking. Below is the test accuracies on this dataset. Note that,clothing1M contains spare 50k clean training data, but most of the methods dont use this data for fair comparison. Therefore, here I only listed methods that do not use extra 50k samples. '?' indicates that given work does not mentipon whether they used 50k clean samples or not.
+
+|Title                                                                                                                          |Accuracy|
+|-----                                                                                                                          |--------|
+|[A semi-supervised two-stage approach to learning from noisy labels](https://arxiv.org/abs/1802.02679)                         |77.34|
+|[Meta Soft Label Generation for Noisy Labels](https://arxiv.org/abs/2007.05836)                                                |76.02|
+|[Cleannet: Transfer Learning for Scalable Image Classifier Training with Label Noise](https://arxiv.org/abs/1711.07131)        |74.69|
+|[Probabilistic End-to-end Noise Correction for Learning with Noisy Labels](https://arxiv.org/abs/1903.07788)                   |74.49|
+|[Deep Self-Learning From Noisy Labels](https://arxiv.org/abs/1908.02160)                                                       |74.45|
+|[Limited Gradient Descent: Learning With Noisy Labels](https://arxiv.org/abs/1811.08117)                                       |74.36|
+|[Are Anchor Points Really Indispensable in Label-Noise Learning?](https://arxiv.org/abs/1906.00189)                            |74.18|
+|[Probabilistic End-to-end Noise Correction for Learning with Noisy Labels](https://arxiv.org/abs/1903.07788)                   |73.72|
+|[Learning to Learn from Noisy Labeled Data](https://arxiv.org/abs/1812.05214)                                                  |73.47|
+|[Improved Mean Absolute Error for Learning Meaningful Patterns from Abnormal Training Data](https://arxiv.org/abs/1903.12141)  |73.20|
+|[Safeguarded Dynamic Label Regression for Noisy Supervision](https://arxiv.org/abs/1903.02152)                                 |73.07|
+|[Temporal Calibrated Regularization for Robust Noisy Label Learning](https://arxiv.org/abs/2007.00240)                         |72.54|
+|[MetaCleaner: Learning to Hallucinate Clean Representations for Noisy-Labeled Visual Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_MetaCleaner_Learning_to_Hallucinate_Clean_Representations_for_Noisy-Labeled_Visual_Recognition_CVPR_2019_paper.html)      |72.50|
+|[L_DMI : A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise](https://arxiv.org/abs/1909.03388)|72.46|
+|[Joint Optimization Framework for Learning with Noisy Labels](https://arxiv.org/abs/1803.11364)                                |72.23|
+|[Parts-dependent Label Noise: Towards Instance-dependent Label Noise](http://arxiv.org/abs/2006.07836)                         |71.67|
+|[Dual T: Reducing Estimation Error for Transition Matrix in Label-noise Learning](http://arxiv.org/abs/2006.07805)?            |71.49|
+|[Masking: A new perspective of noisy supervision](https://arxiv.org/abs/1805.08193)                                            |71.10|
+|[Symmetric Cross Entropy for Robust Learning with Noisy Labels](https://arxiv.org/abs/1908.06112)                              |71.02|
+|[Unsupervised Label Noise Modeling and Loss Correction](https://arxiv.org/abs/1904.11238)                                      |71.00|
 
 Abbreviations for noise types are:
 * NC -> Noisy Channel
