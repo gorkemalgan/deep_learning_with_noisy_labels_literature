@@ -198,13 +198,13 @@ Clothing1M is a real-world noisy labeled dataset which is widely used for benchm
 |[Meta Soft Label Generation for Noisy Labels](https://arxiv.org/abs/2007.05836)                                                |76.02|
 |[DivideMix: Learning with Noisy Labels as Semi-supervised Learning](https://arxiv.org/abs/2002.07394)?                         |74.76|
 |[Cleannet: Transfer Learning for Scalable Image Classifier Training with Label Noise](https://arxiv.org/abs/1711.07131)        |74.69|
-|[Probabilistic End-to-end Noise Correction for Learning with Noisy Labels](https://arxiv.org/abs/1903.07788)                   |74.49|
 |[Deep Self-Learning From Noisy Labels](https://arxiv.org/abs/1908.02160)                                                       |74.45|
-|[NoiseRank: Unsupervised Label Noise Reduction with Dependence Models](https://arxiv.org/abs/2003.06729)                       |73.77|
-|[Learning Adaptive Loss for Robust Learning with Noisy Labels](https://arxiv.org/abs/2002.06482)                               |73.76|
 |[Limited Gradient Descent: Learning With Noisy Labels](https://arxiv.org/abs/1811.08117)                                       |74.36|
 |[Are Anchor Points Really Indispensable in Label-Noise Learning?](https://arxiv.org/abs/1906.00189)                            |74.18|
-|[Probabilistic End-to-end Noise Correction for Learning with Noisy Labels](https://arxiv.org/abs/1903.07788)                   |73.72|
+|[NoiseRank: Unsupervised Label Noise Reduction with Dependence Models](https://arxiv.org/abs/2003.06729)                       |73.77|
+|[Learning Adaptive Loss for Robust Learning with Noisy Labels](https://arxiv.org/abs/2002.06482)                               |73.76|
+|[Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting](https://arxiv.org/abs/1902.07379)                         |73.72|
+|[Probabilistic End-to-end Noise Correction for Learning with Noisy Labels](https://arxiv.org/abs/1903.07788)                   |73.49|
 |[Learning to Learn from Noisy Labeled Data](https://arxiv.org/abs/1812.05214)                                                  |73.47|
 |[Improved Mean Absolute Error for Learning Meaningful Patterns from Abnormal Training Data](https://arxiv.org/abs/1903.12141)  |73.20|
 |[Safeguarded Dynamic Label Regression for Noisy Supervision](https://arxiv.org/abs/1903.02152)                                 |73.07|
