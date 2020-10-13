@@ -4,7 +4,7 @@ This repo consists of collection of papers and repos on the topic of deep learni
 
 |Year|Type|Conf|Repo|Title|
 |----|----|----|----|-----|
-|2020|LNC|||[Meta Soft Label Generation for Noisy Labels](https://arxiv.org/abs/2007.05836)|
+|2020|ML|ICPR|[Pt](https://github.com/gorkemalgan/MSLG_noisy_label)|[Meta Soft Label Generation for Noisy Labels](https://arxiv.org/abs/2007.05836)|
 |2020|RL|||[Learning Adaptive Loss for Robust Learning with Noisy Labels](https://arxiv.org/abs/2002.06482)|
 |2020|LNC|||[ProSelfLC: Progressive Self Label Correction for Training Robust Deep Neural Networks](https://arxiv.org/abs/2005.03788)|
 |2020|DP|||[Identifying Mislabeled Data using the Area Under the Margin Ranking](https://arxiv.org/abs/2001.10528)|
@@ -157,6 +157,9 @@ This repo consists of collection of papers and repos on the topic of deep learni
 |2008|LQA|NIPS ||[Whose vote should count more: Optimal integration of labels from labelers of unknown expertise](https://papers.nips.cc/paper/3644-whose-vote-should-count-more-optimal-integration-of-labels-from-labelers-of-unknown-expertise)
 |2006|RL |JASA ||[Convexity, classification, and risk bounds](http://statistics.berkeley.edu/sites/default/files/tech-reports/638.pdf)
 |2000|EM |     ||[An experimental comparison of three methods for constructing ensembles of decision trees: Bagging, boosting, and randomization](https://link.springer.com/article/10.1023/A:1007607513941)
+
+In order to test label-noise-robust algorithms with benchmark datasets (mnist,mnist-fashion,cifar10,cifar100) synthetic noise generation is a necessary step. Following work provides a feature-dependent synthetic noise generation algorithm and pre-generated synthetic noisy labels for mentioned datasets.
+* [Label Noise Types and Their Effects on Deep Learning](https://arxiv.org/abs/2003.10471) - [Code](https://github.com/gorkemalgan/corrupting_labels_with_distillation)
 
 List of papers that shed light to label noise phenomenon for deep learning:
 
