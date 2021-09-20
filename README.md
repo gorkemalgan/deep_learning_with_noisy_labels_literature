@@ -4,6 +4,7 @@ This repo consists of collection of papers and repos on the topic of deep learni
 
 |Year|Type|Conf|Repo|Title|
 |----|----|----|----|-----|
+|2021|ML||[Pt](https://github.com/gorkemalgan/MetaLabelNet)|[MetaLabelNet: Learning to Generate Soft-Labels from Noisy-Labels](https://arxiv.org/abs/2103.10869)|
 |2020|ML|ICPR|[Pt](https://github.com/gorkemalgan/MSLG_noisy_label)|[Meta Soft Label Generation for Noisy Labels](https://arxiv.org/abs/2007.05836)|
 |2020|RL|||[Learning Adaptive Loss for Robust Learning with Noisy Labels](https://arxiv.org/abs/2002.06482)|
 |2020|LNC|||[ProSelfLC: Progressive Self Label Correction for Training Robust Deep Neural Networks](https://arxiv.org/abs/2005.03788)|
@@ -198,6 +199,7 @@ Clothing1M is a real-world noisy labeled dataset which is widely used for benchm
 
 |Title                                                                                                                          |Accuracy|
 |-----                                                                                                                          |--------|
+|[MetaLabelNet: Learning to Generate Soft-Labels from Noisy-Labels](https://arxiv.org/abs/2103.10869)                           |78.20|
 |[Meta Soft Label Generation for Noisy Labels](https://arxiv.org/abs/2007.05836)                                                |76.02|
 |[DivideMix: Learning with Noisy Labels as Semi-supervised Learning](https://arxiv.org/abs/2002.07394)?                         |74.76|
 |[Cleannet: Transfer Learning for Scalable Image Classifier Training with Label Noise](https://arxiv.org/abs/1711.07131)        |74.69|
